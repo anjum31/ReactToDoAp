@@ -41,7 +41,7 @@ const TaskList = ({lists, handleDeleteTask }) => {
 const App = () => {
   const [lists, setLists] = useState([]);
 
-  const handleAddTask = (list) => {
+  const handleAdd = (list) => {
     setLists([...lists, list]);
   };
 
